@@ -4,7 +4,7 @@ const path = require("path");
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: "/four",
+  publicPath: "./",
   chainWebpack: (config) => {
     // svg图标加载
     config.module
